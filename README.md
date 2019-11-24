@@ -35,6 +35,7 @@ todo
       ```
       
   __How can I get phpmyadmin__
+  
   PHP myadmin is administration tool for easy access to your database collection.
   You can install it by installing LAMPP(Linux,Apache,Mysql,Perl and PHP) or WAMPP for Windows.
   > This instructions are focused on Linux users only!
