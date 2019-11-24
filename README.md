@@ -13,6 +13,7 @@ todo
       mysql -u username -p'password'
       ```
       > Password has to be part of tag -p and it does not have to use single quotes.
+      
   __Begin with development__
   1. If you don't know which databases already exist run:
       ```
@@ -27,6 +28,7 @@ todo
       show tables;
       ```
   > From here on is only basic SQL for CRUD operations.
+  
   Exit mysql with:
       ```
       exit;
