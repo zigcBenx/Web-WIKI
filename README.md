@@ -33,27 +33,35 @@ todo
       ```
       exit;
       ```
+      
   __How can I get phpmyadmin__
   PHP myadmin is administration tool for easy access to your database collection.
   You can install it by installing LAMPP(Linux,Apache,Mysql,Perl and PHP) or WAMPP for Windows.
-  > This instructions are focused on Linux users!
+  > This instructions are focused on Linux users only!
   
   1. Try running:
       ```
       sudo /opt/lampp/lampp start
       ```
-  If this shows you log of mysql, apache and some other stuff with status __OK__ than you are done! Go to last step.
+      
+      If this shows you log of mysql, apache and some other stuff with status __OK__ than you are done! Go to last step.
+  
   2. If that is not the case for you, don't worry, it's probbably another server already running, check for running services:
       ```
       service --status-all
       ```
+      
       If you see '+' sign infront of apache2 or something similar this is the problem! All you need to do is stop it by running:
+      
       ```
       sudo service stop apache2
       ```
+      
       Than go to step 1 and you are good to go!
+  
   3. Go to your browser at: http://localhost/phpmyadmin
      This should show you your administration panel.
+
 ### SSH
   __SSH to server__
   1. Open your terminal / command line and run:
