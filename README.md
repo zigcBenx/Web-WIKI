@@ -116,3 +116,4 @@ todo
       to run your localhost server
   
       
+TODO: Download from quickadminpanel and setup vue ect.
