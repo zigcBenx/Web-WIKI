@@ -117,3 +117,8 @@ todo
   
       
 TODO: Download from quickadminpanel and setup vue ect.
+
+## CSS hints
+change color of image to back and white:
+`-webkit-filter: opacity(60%) grayscale(100%) contrast(10%);
+filter: opacity(60%) grayscale(100%) contrast(10%);`
