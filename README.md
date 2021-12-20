@@ -123,6 +123,14 @@ change color of image to back and white:
 `-webkit-filter: opacity(60%) grayscale(100%) contrast(10%);
 filter: opacity(60%) grayscale(100%) contrast(10%);`
 
+## JS hints
+Check if all element in array are the same. Or all objects have the same property:
+```
+return materials.every(
+        (v) => v.price === materials[0].price
+      )
+```
+
 ## VUE hints
 search object by key value
  // configs is array of objects
